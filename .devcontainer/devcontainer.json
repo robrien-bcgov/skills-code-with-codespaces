@@ -10,7 +10,8 @@
     "customizations": {
       "vscode": {
         "extensions": [
-          "GitHub.copilot"
+          "GitHub.copilot",
+          "vscodevim.vim"
         ]
       },
       "codespaces": {
@@ -18,5 +19,6 @@
           "codespace.md"
         ]
       }
-    }
+    }, 
+    "postCreateCommand": "echo '# Writing code upon codespace createion!' >> codespace.md"
 }
